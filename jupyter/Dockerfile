@@ -5,9 +5,9 @@ USER root
 COPY install-composer.sh /tmp
 
 RUN pip install -U requests \
-					pyquery \
-					shapely \
-					ipywidgets
+                    pyquery \
+                    shapely \
+                    ipywidgets
 
 RUN cd /tmp \
     && apt-get update \
