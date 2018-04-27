@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  jupyter:
+      container_name: andrewmmc-notebook
+      restart: always
+      build:
+        context: ./jupyter
+      ports:
+          - "8388:8888"
+      volumes:
+        - ./notes:/home/jovyan
