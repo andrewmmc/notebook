@@ -1,8 +1,8 @@
-# Dockerised Jupyter Notebook with Jupyter-PHP
+# Dockerised Jupyter Notebook with Jupyter-PHP & IJavascript
 
-Python3 + PHP 7.2 kernel
+> Mainly for me to learn Python, with Jupyter-PHP & IJavascript installed for work.
 
-> Mainly for me to learn Python, with Jupyter-PHP installed for work.
+Python3 + PHP 7.2 + Node.js
 
 ## Get started
 
@@ -19,3 +19,7 @@ $ docker-compose up --build
 $ docker-compose stop
 $ docker-compose rm -f
 ```
+
+## Maintainer
+
+- [Andrew Mok](https://andrewmmc.com) (@andrewmmc)
